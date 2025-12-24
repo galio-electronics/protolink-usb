@@ -1,0 +1,16 @@
+# --- Política: por defecto NO se versiona nada ---
+*
+!*/
+
+# --- Excepciones: SÍ se versionan ---
+!.gitignore
+!README*
+!LICENSE*
+
+# Archivos importantes de Altium
+!*.PcbDoc
+!*.SchDoc
+
+# (Opcional) Si después decides agregar proyecto, descomenta:
+# !*.PrjPcb
+# !*.PcbPrj
